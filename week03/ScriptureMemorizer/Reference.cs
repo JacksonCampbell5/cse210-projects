@@ -29,4 +29,14 @@ public class Reference
             return $"{_book} {_chapter}:{_verse}-{_endVerse} ";
         }
     }
+    public void ChapterSetter(int chap)
+    {
+        if (chap > 0)
+        {
+            _chapter = chap;
+        }
+    }
+
+
+
 }
