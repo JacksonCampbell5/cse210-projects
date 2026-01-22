@@ -19,6 +19,7 @@ class Program
         {
             reference = new Reference( book,int.Parse(chapter),int.Parse(startVerse),int.Parse(endVerse));
         }
+
         Console.Write("Input scripture text: ");
         string text = Console.ReadLine();
         Scripture scripture = new Scripture(reference, text);
@@ -33,6 +34,7 @@ class Program
             Console.WriteLine(scripture.GetDisplayText());
             Console.WriteLine("Press enter to continue or type 'quit' to finish:" );
             responce = Console.ReadLine().ToLower();
+            
         } while (responce != "quit" && !scripture.IsCompletleyHidden());
     }
 }
