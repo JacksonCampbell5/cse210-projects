@@ -21,7 +21,7 @@ class Program
         video3.AddComment("yes8874","When mumbo realizes that he is on a single player world");
         video3.AddComment("smollo7849","Imagine going to someones house and hearing “deploy the defense creepers”");
 
-        List<Video> videos = [video1, video2, video3];
+        List<Video> videos = new List<Video> { video1, video2, video3 };
         foreach (Video video in videos)
         {
             Console.WriteLine(video.DisplayTitle());
