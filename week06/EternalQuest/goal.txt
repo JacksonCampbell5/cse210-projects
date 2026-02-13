@@ -1,0 +1,8 @@
+641
+SimpleGoal`gaol1`is a goal`1`True
+SimpleGoal`gaol2`is a goal`100`False
+ChecklistGoal`galo3`is a goal`88`20`88`4
+SimpleGoal`gaol1`is a goal`1`True
+SimpleGoal`gaol2`is a goal`100`True
+ChecklistGoal`galo3`is a goal`88`20`88`5
+EternalGoal`cadc`dscsd`34
